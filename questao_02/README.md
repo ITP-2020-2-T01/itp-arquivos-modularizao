@@ -27,6 +27,7 @@ CPF,nome,snome,endereço,telefone
 ## Exemplos de entrada / saída
 
 * Exemplo 1
+Entrada:
 ```
 3
 11111
@@ -45,6 +46,7 @@ Xavier
 Av Tirol 222
 999 2222
 ```
+Saída:
 ```
 CPF,nome,snome,endereço,telefone
 11111,João,Pimentel,Av Salgado Filho 222,999 1234
@@ -52,6 +54,7 @@ CPF,nome,snome,endereço,telefone
 33333,Augusto,Xavier,Av Tirol 222,999 2222
 ```
 * Exemplo 2
+Entrada:
 ```
 4
 1234
@@ -75,6 +78,7 @@ Pinheiro
 Rua do Sol 10
 999 4444
 ```
+Saída:
 ```
 CPF,nome,snome,endereço,telefone
 1234,Camila,Gomes,Rua Praia de Ponta Negra,999 0000
