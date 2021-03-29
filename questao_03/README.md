@@ -8,11 +8,12 @@ Seu programa deverá receber como parâmetros de linha de comando:
 
 * -o arquivo\_de\_saida
 
-Exemplo:
+## Exemplo:
+
+Linha de execução do código:
 ```shell
 ./media -i itp.csv -o itp_media.csv
 ```
-
 Exemplo de arquivo de entrada:
 ```
 matrícula,nome,nota1,nota2,nota3
@@ -21,7 +22,6 @@ matrícula,nome,nota1,nota2,nota3
 20200003,Sicrano Beltrano Jr.,5.0,6.0,4.0
 20200003,Beltrano Glorioso,9.0,9.0,3.0
 ```
-
 Exemplo de arquivo de saída:
 ```
 matrícula,nome,média,status
