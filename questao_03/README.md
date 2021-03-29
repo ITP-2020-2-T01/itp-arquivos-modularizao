@@ -10,7 +10,7 @@ Seu programa deverá receber como parâmetros de linha de comando:
 
 ## Exemplo:
 
-Linha de execução do código:
+Linha de execução do código(linux):
 ```shell
 ./media -i itp.csv -o itp_media.csv
 ```
