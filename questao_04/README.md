@@ -14,6 +14,7 @@ Seu programa deverá receber como parâmetros de linha de comando:
 
 ## Exemplo:
 
+Linha de execução no terminal(linux):
 ```shell
 ./media -i itp.csv -o itp_media.csv
 ```
