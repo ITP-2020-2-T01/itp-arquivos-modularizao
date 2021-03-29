@@ -1,10 +1,11 @@
+# Questão 1
 
-# Sobre o 'grep':
+## Sobre o 'grep':
 
 O 'grep' é um comando utilizado para encontrar ocorrências de padrões (strings) em um arquivo ou em um fluxo de dados recebido na entrada padrão. Está presente na maioria dos sistemas Unix-like (como Linux, FreeBSD, macOS, etc.). É utilizado com frequência por usuários desses sistemas operacionais e faz parte do dia-a-dia dos administradores de redes.
 
 
-# Tarefa:
+## Tarefa:
 
 Crie o programa 'meu\_grep', que implementa as funcionalidades principais do 'grep'. Na linha de comando, seu programa deverá receber: 
 
@@ -15,12 +16,14 @@ Crie o programa 'meu\_grep', que implementa as funcionalidades principais do 'gr
 Como saída, o programa deverá mostrar as linhas do arquivo texto (ou da stdin) que contém o padrão procurado. Caso o usuário utilize a flag '-c', apresentar a quantidade de linhas que contém o padrão procurado ao invés exibir o conteúdo.
 
 
-# Exemplo:
+## Exemplo:
 
-* Exemplo 1:
+* Exemplo 1
+Linha de execução no terminal(linux):
 ```shell
 ./meu_grep ida poema.txt
 ```
+Saída:
 ```
 Minh'alma, de sonhar-te, anda perdida.
 Pois que tu és já toda a minha vida!
@@ -28,18 +31,22 @@ Não vejo nada assim enlouquecida...
 A mesma história tantas vezes lida!...
 ```
 
-* Exemplo 2:
+* Exemplo 2
+Linha de execução no terminal(linux):
 ```shell
 ./meu_grep -c ida poema.txt
 ```
+Saída:
 ```
 4
 ```
 
-* Exemplo 3:
+* Exemplo 3
+Linha de execução no terminal(linux):
 ```shell
 cat poema.txt | meu_grep -i meu
 ```
+Saída:
 ```
 Meus olhos andam cegos de te ver.
 Não és sequer razão do meu viver
