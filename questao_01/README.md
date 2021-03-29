@@ -17,34 +17,7 @@ Como saída, o programa deverá mostrar as linhas do arquivo texto (ou da stdin)
 
 # Exemplo:
 
-```shell
-cat poema.txt
-```
-
-```
-Fanatismo
-
-Minh'alma, de sonhar-te, anda perdida.
-Meus olhos andam cegos de te ver.
-Não és sequer razão do meu viver
-Pois que tu és já toda a minha vida!
-
-Não vejo nada assim enlouquecida...
-Passo no mundo, meu Amor, a ler
-No misterioso livro do teu ser
-A mesma história tantas vezes lida!...
-
-"Tudo no mundo é frágil, tudo passa...
-Quando me dizem isto, toda a graça
-Duma boca divina fala em mim!
-
-E, olhos postos em ti, digo de rastros:
-"Ah! podem voar mundos, morrer astros,
-Que tu és como Deus: princípio e fim!..."
-
-Florbela Espanca
-```
-
+* Exemplo 1:
 ```shell
 ./meu_grep ida poema.txt
 ```
@@ -54,6 +27,8 @@ Pois que tu és já toda a minha vida!
 Não vejo nada assim enlouquecida...
 A mesma história tantas vezes lida!...
 ```
+
+* Exemplo 2:
 ```shell
 ./meu_grep -c ida poema.txt
 ```
@@ -61,6 +36,7 @@ A mesma história tantas vezes lida!...
 4
 ```
 
+* Exemplo 3:
 ```shell
 cat poema.txt | meu_grep -i meu
 ```
