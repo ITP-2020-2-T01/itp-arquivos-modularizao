@@ -25,7 +25,7 @@ matrícula,nome,nota1,nota2,nota3
 20200002,Beltrana das Cachoeiras,6.5,6.6,6.4
 20200003,Sicrano Beltrano Jr.,5.0,6.0,4.0
 20200004,Beltrano Glorioso,9.0,9.0,3.0
-200418467,Julio Cesar,3,4,2.0,3.0,4.0
+200418467,Julio Cesar,2.0,3.0,4.0
 ```
 Exemplo de arquivo de saída:
 ```
