@@ -24,7 +24,8 @@ matrícula,nome,nota1,nota2,nota3
 20200001,Fulano dos Anzois,4.5,5.1,3.3
 20200002,Beltrana das Cachoeiras,6.5,6.6,6.4
 20200003,Sicrano Beltrano Jr.,5.0,6.0,4.0
-20200003,Beltrano Glorioso,9.0,9.0,3.0
+20200004,Beltrano Glorioso,9.0,9.0,3.0
+200418467,Julio Cesar,3,4,2.0,3.0,4.0
 ```
 Exemplo de arquivo de saída:
 ```
@@ -32,5 +33,6 @@ matrícula,nome,média,status
 20200001,Fulano dos Anzois,4.3,reprovado por média
 20200002,Beltrana das Cachoeiras,6.5,aprovado
 20200003,Sicrano Beltrano Jr.,6.0,aprovado
-20200003,Beltrano Glorioso,7.0,reprovado por nota
+20200004,Beltrano Glorioso,7.0,aprovado
+200418467,Julio Cesar,3.0,reprovado por nota
 ```
